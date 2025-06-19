@@ -10,4 +10,6 @@ class AgentState:
     def set(self,key,value):
         self.input_data[key] = value
 
+    def all(self):
+        return self._data
     

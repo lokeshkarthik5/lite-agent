@@ -13,3 +13,5 @@ class AgentState:
     def all(self):
         return self._data
     
+
+    #Shares state between agents

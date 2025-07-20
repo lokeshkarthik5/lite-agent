@@ -1,3 +1,4 @@
+dev
 """
 lite-agent: A lightweight and simple agent framework for everyday use.
 
@@ -321,3 +322,7 @@ def test_installation():
     except Exception as e:
         print(f"❌ Installation test failed: {e}")
         return False
+=======
+from .liteagent import LiteAgent
+from .pipeline import Pipeline
+main
